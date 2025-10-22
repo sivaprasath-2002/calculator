@@ -5,6 +5,9 @@ A sleek and modern calculator built with a clean UI and smooth functionality. Th
 ![Calculator Screenshot](./Screenshot%202025-10-22%20145026.png)
 
 ---
+## 🌐 Live Demo
+
+[🌍 View Live Demo](https://your-username.github.io/calculator-app/)
 
 ## 🚀 Features
 
