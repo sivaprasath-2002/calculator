@@ -14,15 +14,7 @@ A sleek and modern calculator built with a clean UI and smooth functionality. Th
   CSS3 (Custom styling with gradients and button effects)
   JavaScript (Vanilla JS logic for calculator operations)
 
-📦 Getting Started
-1. Clone the Repository
-git clone https://github.com/yourusername/calculator-app.git
-cd calculator-app
 
-2. Open in Browser
-Just open index.html in your preferred browser:
-start index.html
-Or double-click the index.html file.
 
 🧠 How It Works
   The calculator layout is built with a grid system. JavaScript handles input detection, performs calculations, and updates the display. Buttons are styled to provide visual feedback on interaction.
@@ -35,7 +27,7 @@ calculator-app/
 ├── README.md         # Project documentation
 └── Screenshot.png    # UI preview
 
-🖼️ Preview
+🖼️ <img src = ""
 
 Replace this section with a live demo link if hosted on GitHub Pages or Netlify.
 
