@@ -1,0 +1,123 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  background-size: 300% 300%;
+  animation: gradientShift 15s ease infinite;
+}
+
+
+
+.calculator {
+  background-color: rgb(46, 49, 58);
+  width: 320px;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7),
+    0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+
+#display {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  border-radius: 10px;
+  color: #aaa;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family:'Courier New', monospace ;
+  text-align: right;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  box-shadow: inset 0 0 5px hsl(206, 75%, 73%);
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5 ,1fr);
+  gap: 10px;
+  position: relative;
+}
+
+button {
+  height: 70px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f90ff;
+  background-color: #1a1b1f;
+  transition: all 0.2s ease;
+  box-shadow: inset 0 -4px 6px rgba(0, 0, 0, 0.4),
+              0 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.1);
+  box-shadow: inset 0 -4px 10px rgba(0, 255, 255, 0.2),
+              0 6px 12px rgba(0, 255, 255, 0.2);
+}
+
+button:active {
+   transform: translateY(2px);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.gray {
+  background-color: hsl(220, 8%, 55%);
+  color: white;
+}
+
+.gray:hover {
+  background-color: hsl(210, 8%, 35%);
+}
+
+.gray:active {
+  background-color: hsl(210, 8%, 45%);
+}
+
+.opt-btn {
+  background-color: hsl(220, 100%, 50%);
+  color: white;
+  font-size: 2rem;
+}
+
+.opt-btn:hover {
+  background-color: hsl(210, 100%, 35%);
+}
+
+.opt-btn:active {
+  background-color: hsl(210, 100%, 45%);
+}
+
+.equal {
+  background-color: #0074ff;
+  color: white;
+  height: 70px;
+}
+.equal:hover {
+  background-color: hsl(210, 100%, 35%);
+}
+
+.equal:active {
+  background-color: hsl(210, 100%, 45%);
+}
+ #large-btn {
+    grid-row: span 2;
+    height: 100%;
+  }
+#zero-btn {
+  grid-column: span 2;
+  width: 100%;
+}
+
+
+
