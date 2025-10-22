@@ -7,7 +7,7 @@ A sleek and modern calculator built with a clean UI and smooth functionality. Th
 ---
 ## 🌐 Live Demo
 
-[🌍 View Live Demo]([https://your-username.github.io/calculator-app/](https://sivaprasath-2002.github.io/calculator/))
+[🌍 View Live Demo](https://sivaprasath-2002.github.io/calculator/)
 
 ## 🚀 Features
 
