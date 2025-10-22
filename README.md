@@ -1,52 +1,35 @@
-🔢 Stylish Calculator App
+# 🔢 Stylish Calculator App
 
-A sleek and modern calculator built with a clean UI and smooth functionality. This project showcases a fully functional calculator supporting basic arithmetic operations with a responsive design and dark theme aesthetics.
+A sleek and modern calculator built with a clean UI and smooth functionality. This project supports all basic arithmetic operations and features a responsive, dark-themed design.
 
-🚀 Features
-      Basic arithmetic operations: Addition,Subtraction,Multiplication,Division 
-      Clear (AC) and Backspace functionality
-      Responsive and visually appealing UI
-      Keyboard and button input support (if applicable)
-      Built with clean and modular code
+![Calculator Screenshot](./Screenshot%202025-10-22%20145026.png)
 
-🛠️ Tech Stack
-  HTML5
-  CSS3 (Custom styling with gradients and button effects)
-  JavaScript (Vanilla JS logic for calculator operations)
+---
 
+## 🚀 Features
 
+- Basic arithmetic: ➕ ➖ ✖️ ➗
+- AC (All Clear) & Backspace functionality
+- Responsive UI design
+- Clean and intuitive layout
+- Modern dark mode style
 
-🧠 How It Works
-  The calculator layout is built with a grid system. JavaScript handles input detection, performs calculations, and updates the display. Buttons are styled to provide visual feedback on interaction.
+---
 
-📁 Project Structure
+## 🛠️ Tech Stack
+
+- ✅ HTML5  
+- ✅ CSS3 (with gradients & modern styling)  
+- ✅ JavaScript (Vanilla JS logic)
+
+---
+
+## 📁 Project Structure
+
+```plaintext
 calculator-app/
-├── index.html        # Structure of the calculator
-├── style.css         # Styling and layout
-├── script.js         # Calculator logic
-├── README.md         # Project documentation
-└── Screenshot.png    # UI preview
-
-🖼️ <img src = ""
-
-Replace this section with a live demo link if hosted on GitHub Pages or Netlify.
-
-You can see the live demo here:
-Live Demo
-
-📌 Future Improvements
-  Add support for keyboard inputs
-  Implement scientific calculator features
-  Add light/dark mode toggle
-
-
-🤝 Contributing
-  Feel free to fork the repository and submit pull requests.
-
-📄 License
-  This project is open-source and available under the MIT License.
-
-
-🙌 Acknowledgements
-  Inspired by modern UI calculator designs
-  Thanks to open-source resources and the developer community
+├── index.html         # Main HTML structure
+├── style.css          # Styles and layout
+├── script.js          # Calculator logic
+├── README.md          # Project documentation
+└── Screenshot.png     # UI Preview image
